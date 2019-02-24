@@ -109,6 +109,17 @@ footer h3 {
     margin-bottom: 0;
 }
 
+/* ragnaros.html */
+#landing-imageragnaros {
+    background: url(https://vignette.wikia.nocookie.net/wowwiki/images/e/e2/Ragnaros_the_Firelord.png/revision/latest?cb=20110617044003);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
 /* Screen Sizes 500px and Up */
 @media(min-width: 500px) {
     #landing {
@@ -121,6 +132,9 @@ footer h3 {
     }
     
     #landing-image {
+        height: 100vh;
+    }
+    #landing-imageragnaros {
         height: 100vh;
     }
 }
